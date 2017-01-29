@@ -5509,6 +5509,7 @@ button.btn-floating {
 }
 
 .collapsible-body {
+/*  list-style: circle;*/
   display: none;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
