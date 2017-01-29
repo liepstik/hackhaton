@@ -3351,6 +3351,8 @@ nav ul a span.badge {
   width: 90%;
 }
 
+
+
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
@@ -5491,9 +5493,9 @@ button.btn-floating {
   cursor: pointer;
   min-height: 3rem;
   line-height: 3rem;
-  padding: 0 1rem;
+  padding: 0 10rem;
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 10px solid #ddd;
 }
 
 .collapsible-header i {
@@ -5711,6 +5713,7 @@ button:focus {
 label {
   font-size: 0.8rem;
   color: #9e9e9e;
+  
 }
 
 /* Text Inputs + Textarea
@@ -6038,11 +6041,12 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field label {
-  color: #9e9e9e;
+/*  color: #9e99e9;*/
+  color: aliceblue ;
   position: absolute;
   top: 0.8rem;
   left: 0;
-  font-size: 1rem;
+  font-size: 1.43rem;
   cursor: text;
   transition: .2s ease-out;
 }
