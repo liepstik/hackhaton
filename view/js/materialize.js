@@ -8029,3 +8029,8 @@ Picker.extend( 'pickadate', DatePicker )
       }
     }; // Plugin end
 }( jQuery ));
+
+
+function changement_nom() {
+	document.getElementById("voyageur").innerHTML = "Bernard" ;
+}
