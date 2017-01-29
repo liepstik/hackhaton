@@ -866,11 +866,14 @@ if (jQuery) {
 
       return this.each(function() {
         var $modal = $(this);
-        var modal_id = $(this).attr("id") || '#' + $(this).data('target');
+        var modal_id = $(this).attr("id") || '#' + $(this).data('target')
+        var video_id = "#" + modal_id + "-vid";;
 
         var closeModal = function() {
           var overlayID = $modal.data('overlay-id');
           var $overlay = $('#' + overlayID);
+          console.log("close " + video_id);
+          $(video_id).get(0).pause();
           $modal.removeClass('open');
 
           // Enable scrolling
@@ -916,6 +919,8 @@ if (jQuery) {
         var openModal = function($trigger) {
           var $body = $('body');
           var oldWidth = $body.innerWidth();
+          console.log("open " + video_id);
+          $(video_id).get(0).play();
           $body.css('overflow', 'hidden');
           $body.width(oldWidth);
 
@@ -996,7 +1001,9 @@ if (jQuery) {
         }); // done set on click
 
         $(this).on('openModal', function() {
+        console.log(10);
           var modal_id = $(this).attr("href") || '#' + $(this).data('target');
+          console.log(modal_id);
           openModal();
         });
 
