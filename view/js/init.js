@@ -64,6 +64,6 @@ function sendElement() {
         console.log(myObj);
         var myJSON = JSON.stringify(myObj);
         console.log(myJSON);
-        window.location = "../controller/start.ctrl.php?x=" + myObj;    
+        window.location = "../controller/start.ctrl.php?x=" + myJSON;    
     }
 }
