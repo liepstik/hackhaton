@@ -921,6 +921,7 @@ if (jQuery) {
           var oldWidth = $body.innerWidth();
           console.log("open " + video_id);
           $(video_id).get(0).play();
+          //$(video_id).get(0).src += "&autoplay=1";
           $body.css('overflow', 'hidden');
           $body.width(oldWidth);
 
