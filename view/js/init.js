@@ -36,9 +36,10 @@ $(document).ready(function() {
     $.getJSON(document.URL, function(data) {
        console.log("my json " + data); 
     });
-    $("#download-button").click(function(){
-        $("#index-banner").hide();
-        $("#div-b").show();     
+    
+    $("#download-button2").click(function(){
+//        $("#index-banner").hide();
+        $(".div-none").show();     
     });
 });
 

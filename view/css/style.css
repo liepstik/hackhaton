@@ -37,6 +37,10 @@ p {
     width: 100%;
   }
 
+#laura_title {
+    text-shadow: 2px 2px #000000;
+}
+
 .container-form {
 /*  color: black;*/
   margin: 0 auto;
