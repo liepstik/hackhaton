@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../view/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../view/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header center teal-text text-lighten-2">Bienvenue sur le serious game !</h2>
+    
+    </div>
+    <div class="container-form">
+        <br><br>
+        <fieldset id="form">
+            <div class="row center">
+            <form class="col s12" >
+              <div class="row">
+                <div class="input-field col s6 offset-s3 form-color">
+                  <input id="first_name" type="text" class="validate" required>
+                  <label for="first_name">First Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6 offset-s3 form-color">
+                  <input id="current_age" type="text" class="validate" required>
+                  <label for="age">Age actuel</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6 offset-s3">
+                  <input id="retirement_age" type="text" class="validate" required>
+                  <label for="age">Age retraite</label>
+                </div>
+              </div>
+            </form>
+            <div class="row center">
+                <button class="waves-effect waves-light btn"  id="download-button" onclick="sendElement()">Here we go !</button>
+            </div>
+          </div>
+        
+        </fieldset>
+        
+         <div class="parallax"><img src="../view/img/background1.jpg" alt="Unsplashed background img 1"></div>
+      
+
+      </div>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../view/js/materialize.js"></script>
+  <script src="../view/js/init.js"></script>
+
+  </body>
+</html>

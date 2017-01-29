@@ -8039,5 +8039,5 @@ Picker.extend( 'pickadate', DatePicker )
 
 
 function changement_nom() {
-	document.getElementById("voyageur").innerHTML = "Bernard" ;
+	document.getElementById("voyageur").innerHTML = "Michel" ;
 }
